@@ -14,10 +14,10 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
         let react = event.body.toLowerCase();
         if(react.includes("assalamualaikum") ||
      react.includes("asslam walikum") || react.includes("ASSLAM WALIKUM") || react.includes("Aslam") ||
-react.includes("Assalam alaikum") ||
+react.includes("Asslam alaikum") ||
 react.includes("assalamualaikum")) {
                 var msg = {
-                                body: `____________________________________\n\nWalekum Aaslamu  Wa Ramutllha Barkatu 😇\n____________________________________ \n𝐎𝐰𝐧𝐞𝐫 ➻  ────  𝙎𝙝𝘼𝙖𝙉   𝙆𝙝𝘼𝙣`,
+                                body: `____________________________________\n\nWalekum Aaslamu  Wa Ramutllha Barkatu 😇\n____________________________________ \n𝐎𝐰𝐧𝐞𝐫 ➻  ──── S😈yco 👑King ☠️Legends`,
                         }
                         api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🤲", event.messageID, (err) => {}, true)
