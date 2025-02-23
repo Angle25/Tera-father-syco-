@@ -17,7 +17,7 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL }) {
 react.includes("Asslam alaikum") ||
 react.includes("assalamualaikum")) {
                 var msg = {
-                                body: `____________________________________\n\nWalekum Aaslamu  Wa Ramutllha Barkatu 😇\n____________________________________ \n𝐎𝐰𝐧𝐞𝐫 ➻  ──── S😈yco 👑King ☠️Legends`,
+                                body: `____________________________________\n\nWalekum Aaslamu  Wa Ramutllha Barkatu 😇\n____________________________________ \n𝐎𝐰𝐧𝐞𝐫 ➻  ──── ☺︎︎⌫🇸 🇾 🇨 🇴⌫☹︎`,
                         }
                         api.sendMessage(msg, threadID, messageID);
     api.setMessageReaction("🤲", event.messageID, (err) => {}, true)
